@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <!-- 标题金-->
+    <color name="base_title_gold">#22D3B6</color>
+    <!-- 按钮金-->
+    <color name="base_bottom_gold">#22D3B6</color>
+    <!-- ToolBar 弹出菜单背景色-->
+    <color name="base_title_popup_gold">#CECECF</color>
+    <color name="base_title_popup">#CECECF</color>
+
+    <color name="base_black_1A">#1A1A1A</color>
+    <color name="base_black_95">#F3000000</color>
+    <color name="base_black_65">#A6000000</color>
+    <color name="base_black_80">#808080</color>
+    <color name="base_black_50">#80000000</color>
+    <color name="base_black_30">#4D000000</color>
+    <color name="base_white_100">#FFFFFFFF</color>
+    <color name="base_white_80">#80FFFFFF</color>
+    <color name="base_white_95">#F3FFFFFF</color>
+    <color name="base_white_65">#A6FFFFFF</color>
+    <color name="base_white_50">#80FFFFFF</color>
+    <color name="base_white_30">#4DFFFFFF</color>
+    <color name="base_gray_ed">#ededed</color>
+    <color name="base_gray_ee">#eeeeee</color>
+    <color name="base_gray_f7">#f7f7f7</color>
+    <color name="base_gray_f4">#f4f4f4</color>
+    <color name="base_red">#ED2201</color>
+    <color name="base_orange">#CF5516</color>
+
+
+    <!--横线颜色-->
+    <color name="base_horizontal_line">#CCCCCC</color>
+    <color name="horizontal_line_color">#999999</color>
+    <color name="line_color_black_33">#33000000</color>
+
+    <color name="setting_item_bg">#80ffffff</color>
+    <color name="setting_line_bg">#33000000</color>
+    <!--列表背景色 有分组标题栏和无分组标题栏-->
+    <color name="listview_bg_nogroup">#EEEEEE</color>
+    <color name="listview_bg_withgroup">#FFFFFF</color>
+    <color name="listview_item_bg">#FFFFFF</color>
+    <!--列表标题栏颜色-->
+    <color name="listview_group_bg">#EEEEEE</color>
+    <!--对话框背景色-->
+    <color name="dialog_bg_color">#e8eded</color>
+    <!--toast背景色-->
+    <color name="toast_bg">#BF000000</color>
+    <!--默认提示文字-->
+    <color name="hint_color">#cbcbcb</color>
+    <!--button不可点击的状态下-->
+    <color name="btn_false_text_color">#929292</color>
+    <!--立即登陆不可点击的状态下色值-->
+    <color name="btn_login_text_color">#ad9d7c</color>
+    <!--对话框选择按钮字体颜色-->
+    <color name="dialog_button_text_color">#404040</color>
+    <!-- 进度条 -->
+    <color name="progressbar_bg">#22D3B6</color>
+    <color name="progressbar_font_bg">#22D3B6</color>
+
+    <color name="timepicker_text_color">#1c1c1c</color>
+
+    <color name="tab_title_view">#22d3b6</color>
+
+    <drawable name="tab_color_normal">#00000000</drawable>
+    <drawable name="tab_color_selected">#1Affffff</drawable>
+
+    <color name="treeNode_department_height">#1A000000</color>
+
+    <color name="treeNode_menber_text_color">#000000</color>
+
+    <color name="touming_bg_color">#00000000</color>
+
+</resources>

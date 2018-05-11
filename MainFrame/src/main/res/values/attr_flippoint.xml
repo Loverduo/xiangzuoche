@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlipPoint">
+        <attr name="index" format="integer" />
+        <attr name="total" format="integer" />
+        <attr name="pointOnSize" format="dimension|reference" />
+        <attr name="pointOffSize" format="dimension|reference" />
+        <attr name="pointMargin" format="dimension|reference" />
+        <attr name="pointSelcted" format="reference" />
+        <attr name="pointNoneSelected" format="reference" />
+    </declare-styleable>
+</resources>

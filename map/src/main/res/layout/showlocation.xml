@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/show_bus_position_tool_bar"
+        layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_bus_position_tool_bar"
+        android:background="@color/default_background"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <EditText
+            android:id="@+id/searchKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/searchHint"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#80000000" />
+
+        <Button
+            android:id="@+id/searchLinesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/searchLineBtnText" />
+
+        <Button
+            android:id="@+id/showAllLinesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showAllLineBtnText" />
+    </LinearLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/searchLayout"
+        android:clickable="true" />
+
+</RelativeLayout>

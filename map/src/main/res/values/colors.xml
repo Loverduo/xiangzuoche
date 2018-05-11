@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--common  color values-->
+    <color name="default_background">#7f7f7f</color>
+    <color name="common_title_gold_color">#ed2201</color>
+    <color name="red">#ed2201</color>
+    <color name="common_button_text_gold_color">#ae9153</color>
+
+    <color name="chatlist_time_color">#404040</color>
+    <color name="chatlist_name_color">#000000</color>
+    <color name="chatlist_content_color">#404040</color>
+</resources>

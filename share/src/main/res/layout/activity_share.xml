@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ShareActivity">
+
+    <include
+        android:id="@+id/share_tool_bar"
+        layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/shareLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/share_logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/shareLabelFirst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/base_10"
+        android:gravity="center"
+        android:text="@string/share_lable_first"
+        android:textColor="@color/blacktext" />
+
+    <TextView
+        android:id="@+id/shareLabelSecond"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/base_16"
+        android:gravity="center"
+        android:text="@string/share_lable_second"
+        android:textColor="@color/blacktext" />
+
+    <Button
+        android:id="@+id/rewardRule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white_background"
+        android:text="@string/share_reward_rule_text"
+        android:textColor="@color/graytext" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_background"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/shareType"
+            android:layout_width="fill_parent"
+            android:numColumns="3"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/shareMore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share_more_text" />
+
+        <Button
+            android:id="@+id/shareResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/share_result_default"
+            android:textColor="@color/graytext"
+            android:background="@color/default_background"/>
+    </LinearLayout>
+</LinearLayout>

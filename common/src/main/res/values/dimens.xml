@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="base_1">1dp</dimen>
+    <dimen name="base_8">8dp</dimen>
+    <dimen name="base_10">10dp</dimen>
+    <dimen name="base_12">12dp</dimen>
+    <dimen name="base_16">16dp</dimen>
+    <dimen name="base_18">18dp</dimen>
+    <dimen name="base_20">17dp</dimen>
+    <dimen name="base_24">24dp</dimen>
+    <dimen name="base_100">100dp</dimen>
+
+    <dimen name="head_16">16sp</dimen>
+    <dimen name="menu_14">14sp</dimen>
+    <dimen name="title_18">18sp</dimen>
+    <dimen name="font_15">15sp</dimen>
+
+    <!--toolbar高度-->
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <!-- 二维码界面相关-->
+    <dimen name="zxing_pop_width">270dp</dimen>
+    <dimen name="zxing_pop_height">284dp</dimen>
+    <dimen name="zxing_width">200dp</dimen>
+    <dimen name="zxing_height">200dp</dimen>
+    <dimen name="zxing_tip_bottom">28dp</dimen>
+    <dimen name="zxing_padding_left_right">36dp</dimen>
+
+
+    <!-- 介绍页面-->
+    <dimen name="guide_flip_margin_bottom">90dp</dimen>
+    <dimen name="guide_flip_point_margin">12dp</dimen>
+    <dimen name="guide_flip_point_offsize">12dip</dimen>
+    <dimen name="guide_flip_point_onsize">18dip</dimen>
+    <!-- 闪屏界面-->
+    <dimen name="shut_again_margin_bottom">78dp</dimen>
+</resources>

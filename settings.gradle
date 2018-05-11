@@ -1,0 +1,1 @@
+include ':MainFrame', ':common', ':login', ':register' , ':setting', ':share', ':map', ':db', ':http'

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/base_black_95</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CustomTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/base_18</item>
+    </style>
+
+    <style name="ToolBarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/base_title_popup</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">#7f7f7f</item>
+        <item name="colorControlActivated">#7f7f7f</item>
+        <item name="colorControlHighlight">#7f7f7f</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+</resources>

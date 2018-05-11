@@ -1,0 +1,10 @@
+<resources>
+    <string name="map_location">当前位置</string>
+    <string name="bus_line">公交线路</string>
+
+    <string name="hello_map">百度地图!</string>
+    <string name="searchHint">请输入线路进行查询</string>
+    <string name="changeCityBtnText">切换城市</string>
+    <string name="searchLineBtnText">搜索</string>
+    <string name="showAllLineBtnText">所有</string>
+</resources>

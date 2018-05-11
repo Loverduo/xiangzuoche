@@ -1,0 +1,9 @@
+<resources>
+    <string name="login_activity_title">登录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="account">瑞享通：</string>
+    <string name="password">密&#160;&#160;&#160;&#160;码：</string>
+    <string name="changePassword">找回密码</string>
+    <string name="register">注册</string>
+</resources>

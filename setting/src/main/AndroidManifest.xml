@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruixiangtong.xzc.setting">
+
+    <application android:allowBackup="true">
+        <activity
+            android:name=".changepassword.ChangePasswordActivity"
+            android:label="@string/changepassword_activity_title"></activity>
+        <activity
+            android:name=".zxing.scan.CaptureActivity"
+            android:label="扫描二维码"></activity>
+    </application>
+
+</manifest>

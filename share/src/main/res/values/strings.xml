@@ -1,0 +1,16 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="share_activity_title">推荐有奖</string>
+    <string name="share_lable_first">送给朋友10元优惠，当他首次使用时</string>
+    <string name="share_lable_second">您将获得10元奖励</string>
+    <string name="share_reward_rule_text">奖励规则</string>
+    <string name="share_more_text">更多邀请方式</string>
+    <string name="share_result_default">邀请结果</string>
+    <string name="share_succeed_num_start">已成功推荐</string>
+    <string name="share_succeed_num_unit">人，</string>
+    <string name="share_gain_money_start">累计获得收益</string>
+    <string name="share_gain_money_unit">元</string>
+
+    <string name="share_result_title">推荐结果</string>
+</resources>

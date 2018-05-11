@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--common  color values-->
+    <color name="white_background">#ffffff</color>
+    <color name="default_background">#dddddd</color>
+    <color name="blacktext">#ff000000</color>
+    <color name="graytext">#af000000</color>
+</resources>
